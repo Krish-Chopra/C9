@@ -11,6 +11,11 @@ function setup() {
    btn_green.position(250,50);
    btn_green.mouseClicked(green_bg);
 
+   btn_blue = createButton("BLUE");
+   btn_blue.position(350,50);
+   btn_blue.mouseClicked(blue_bg);
+
+
    }  
    function red_bg()
    {
@@ -29,6 +34,15 @@ function setup() {
     b = 0;
     background(rgb(0,255,0));
      } 
+     function blue_bg() 
+     {
+       r=0;
+       g=0;
+       b=255;
+       background(rgb(0,0,255));
+
+     }
+
 
 
    
